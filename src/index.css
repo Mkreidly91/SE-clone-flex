@@ -1,0 +1,62 @@
+:root {
+  --hero-purple: rgba(152, 100, 218, 0.93);
+  --hero-pink: rgba(251, 80, 142, 0.93);
+  --hero-green: rgba(40, 238, 167, 0.93);
+}
+
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+.body {
+  box-sizing: border-box;
+}
+
+/* HERO */
+#hero {
+  height: 100vh;
+  /* justify-content: space-between; */
+}
+
+.hero-content {
+  height: 100%;
+  display: flex;
+  gap: 24px;
+}
+.hero-left-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.hero-left {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+
+  animation: color-transition 9s infinite steps(1);
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.hero-animated-text {
+  display: flex;
+}
+
+@keyframes color-transition {
+  0% {
+    background-color: var(--hero-green);
+  }
+  50% {
+    background-color: var(--hero-purple);
+  }
+  100% {
+    background-color: var(--hero-pink);
+  }
+}
