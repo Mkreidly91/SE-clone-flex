@@ -23,16 +23,17 @@
 .section-dots > * {
   width: 20px;
   height: 20px;
-
   border-radius: 50%;
 }
 
 .section-dots div:nth-child(1) {
   background-color: var(--hero-grey);
 }
+
 .section-dots div:nth-child(2) {
   background-color: var(--se-light-grey);
 }
+
 .section-dots div:nth-child(3) {
   background-color: var(--se-green);
 }

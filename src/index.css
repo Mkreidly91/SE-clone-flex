@@ -4,6 +4,8 @@
   --hero-green: rgba(40, 238, 167, 0.93);
   --hero-grey: #363738;
   --se-white: #f1f2f3;
+  --se-green: #28eea7;
+  --se-light-grey: #dcdee1;
 }
 
 html {
@@ -94,7 +96,6 @@ nav div {
 .hero-description {
   font-size: 16px;
   font-weight: 400;
-  /* color: var(--se-white); */
   text-align: right;
 }
 .hero-left-button {
@@ -142,11 +143,79 @@ nav div {
 }
 
 /* Sections */
-.section-title {
-}
-.title {
+section:not(:first-child) {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 70px;
+  font-weight: 900;
 }
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+}
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.section-marker {
+  font-size: 36px;
+  color: var(--se-green);
+}
+.section-description {
+  font-size: 24px;
+  color: var(--hero-grey);
+}
+
 /* Hello world! */
+#hello-world {
+  background-color: var(--se-white);
+  align-items: center;
+}
+
+.yt-video {
+  display: flex;
+  border: 15px solid var(--se-green);
+  border-radius: 25px;
+  width: 100%;
+  height: 565px;
+  justify-content: center;
+}
+
+.yt-video iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* Milestones */
+.milestones-container {
+  display: flex;
+  color: var(--hero-grey);
+}
+.milestones-container div {
+  background-color: var(--se-white);
+  border-radius: 20px;
+}
+.employment {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 70px;
+}
+.employment span {
+  font-size: 12px;
+}
+.employment span:nth-child(1) {
+  font-size: 120px;
+}
+.employment span:nth-child(2) {
+  font-size: 32px;
+}
+
+.employment-list {
+  list-style-type: '-';
+  padding: 0;
+  font-weight: 200;
+}
