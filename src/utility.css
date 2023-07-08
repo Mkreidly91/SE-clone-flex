@@ -1,0 +1,38 @@
+:root {
+  --hero-purple: rgba(152, 100, 218, 0.93);
+  --hero-pink: rgba(251, 80, 142, 0.93);
+  --hero-green: rgba(40, 238, 167, 0.93);
+  --hero-grey: #363738;
+  --se-white: #f1f2f3;
+  --se-green: #28eea7;
+  --se-light-grey: #dcdee1;
+}
+
+.util-button {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 800;
+  padding: 15px 20px;
+  border-style: none;
+}
+
+.section-dots {
+  display: flex;
+  gap: 10px;
+}
+.section-dots > * {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+}
+
+.section-dots div:nth-child(1) {
+  background-color: var(--hero-grey);
+}
+.section-dots div:nth-child(2) {
+  background-color: var(--se-light-grey);
+}
+.section-dots div:nth-child(3) {
+  background-color: var(--se-green);
+}

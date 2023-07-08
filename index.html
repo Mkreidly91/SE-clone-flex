@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="stylesheet" href="src/utility.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link
@@ -19,10 +20,21 @@
   <body>
     <main>
       <section id="hero">
-        <div class="navbar"></div>
+        <nav class="navbar">
+          <div>
+            <img src="src/images/se-logo-wide.svg" alt="SE-Factory logo" />
+            <button class="nav-dropdown">
+              <img src="src/images/Hamburger.svg" alt="dropdown icon" />
+            </button>
+          </div>
+        </nav>
         <div class="hero-content">
           <div class="hero-left">
-            <img src="./src/images/hero-left.png" class="hero-left-img"></img>
+            <img
+              class="hero-img"
+              src="./src/images/hero-left.png"
+              class="hero-left-img"
+            />
             <div class="content-wrapper">
               <span>WANT TO BECOME A</span>
               <div class="hero-animated-text">
@@ -35,28 +47,41 @@
                 Design. Get hands-on experience and gain essential skills for a
                 successful tech career.
               </p>
-              <button>#GET TRAINED</button>
+              <button class="hero-left-button util-button">#GET TRAINED</button>
             </div>
           </div>
           <div class="hero-right">
+            <img src="./src/images/hero-right.png" class="hero-img" />
             <div class="content-wrapper">
-              <span>WANT TO BECOME A</span>
+              <span>WANT TO HIRE</span>
               <div>
-                <span class="hero-animated-text">SOFTWARE ENGINEER?</span>
-                <span>_</span>
+                <span>JOB-READY TECH TALENT?</span>
               </div>
               <p class="hero-description">
-                Jumpstart your journey in tech with our courses in Computer
-                Science, Full-Stack Web development, Data Engineering and UI/UX
-                Design. Get hands-on experience and gain essential skills for a
-                successful tech career.
+                Look no further than our comprehensive talent matching and
+                placement services! Our expert team will connect you with highly
+                trained and skilled developers who are ready to hit the ground
+                running and drive your success.
               </p>
-              <button>#GET TRAINED</button>
+              <button class="hero-left-button util-button">#HIRE_TALENT</button>
             </div>
           </div>
         </div>
       </section>
-      <section></section>
+
+      <section id="hello-world">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-marker">></span>
+            <span class="section-description">Hello world!</span>
+          </div>
+          <div class="section-dots">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
+      </section>
       <section></section>
       <section></section>
       <section></section>
