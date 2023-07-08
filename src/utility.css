@@ -7,7 +7,12 @@
   --se-green: #28eea7;
   --se-light-grey: #dcdee1;
 }
-
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
 .util-button {
   font-family: inherit;
   font-size: 16px;
