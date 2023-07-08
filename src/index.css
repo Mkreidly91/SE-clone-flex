@@ -193,16 +193,17 @@ section:not(:first-child) {
 /* Milestones */
 .milestones-container {
   display: flex;
+  gap: 20px;
   color: var(--hero-grey);
 }
 .milestones-container div {
-  background-color: var(--se-white);
   border-radius: 20px;
 }
 .employment {
   display: flex;
   flex-direction: column;
   padding: 60px 70px;
+  background-color: var(--se-white);
 }
 .employment span {
   font-size: 12px;
@@ -215,7 +216,58 @@ section:not(:first-child) {
 }
 
 .employment-list {
-  list-style-type: '-';
+  list-style-type: none;
   padding: 0;
   font-weight: 200;
+}
+
+.milestones-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.milestones-right > * {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+}
+.milestones-right div div {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  background-color: var(--se-white);
+}
+.milestones-right-title {
+  font-size: 64px;
+}
+.milestones-right-info {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Programs */
+
+#programs {
+  background-color: var(--se-green);
+}
+
+#programs .section-title {
+  padding: 0 20px;
+  background-color: var(--hero-grey);
+}
+
+#programs .section-description {
+  color: white;
+}
+
+#programs .section-dots div:nth-child(1) {
+  background-color: var(--se-white);
+}
+
+#programs .section-dots div:nth-child(2) {
+  background-color: var(--se-light-grey);
+}
+
+#programs .section-dots div:nth-child(3) {
+  background-color: var(--hero-grey);
 }
