@@ -168,7 +168,7 @@ section:not(:first-of-type) {
 }
 .section-description {
   font-size: 24px;
-  color: var(--hero-grey);
+  /* color: var(--hero-grey); */
 }
 
 /* Hello world! */
@@ -489,4 +489,14 @@ section:not(:first-of-type) {
 .carousel-indicators span {
   width: 10px;
   height: 10px;
+}
+
+/* FAQS */
+.faq-content {
+  gap: 15px;
+}
+.faq-content div {
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-size: 14px;
 }
