@@ -295,9 +295,15 @@ section:not(:first-of-type) {
 }
 
 .fsw-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
   padding: 20px;
 }
-
+.fsw-left {
+  display: flex;
+  flex-direction: column;
+}
 .fsw-header {
   font-size: 22px;
 }
@@ -336,4 +342,86 @@ section:not(:first-of-type) {
 .fsw-footer button {
   color: var(--se-white);
   padding: 15px 20px;
+}
+.fsw-content img {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+/* Hire talent */
+
+#hire-talent {
+  background-color: var(--hero-grey);
+  color: var(--se-white);
+}
+
+#hire-talent .section-description {
+  color: var(--se-white);
+}
+.hire-content,
+.hire-top {
+  display: flex;
+  flex-direction: column;
+}
+.hire-content {
+  gap: 20px;
+  padding: 40px;
+  background-color: var(--hero-grey);
+}
+
+.hire-top {
+  background-color: var(--se-dark-grey);
+  padding: 40px;
+  gap: 24px;
+}
+.hire-top,
+.hire-bottom {
+  border-radius: 20px;
+}
+
+.hire-top > span:nth-child(1) {
+  font-size: 22px;
+}
+.hire-join,
+.hire-content ol,
+.hire-content p {
+  font-weight: 400;
+}
+.hire-join {
+  background-color: var(--hero-grey);
+  padding: 15px 20px;
+}
+.hire-join span {
+  color: var(--se-green);
+}
+.hire-top ol,
+.hire-top p {
+  font-size: 14px;
+}
+.hire-content a,
+.hire-bottom {
+  background-color: var(--se-dark-grey);
+}
+.hire-content a {
+  display: block;
+  background-color: var(--hero-grey);
+  text-decoration: none;
+  text-align: end;
+  color: inherit;
+  padding: 15px 20px;
+}
+
+.hire-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.hire-bottom img {
+  height: 40px;
 }
