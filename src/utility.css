@@ -6,6 +6,7 @@
   --se-white: #f1f2f3;
   --se-green: #28eea7;
   --se-light-grey: #dcdee1;
+  --se-dark-grey: #232323;
 }
 .flex {
   display: flex;
@@ -43,4 +44,28 @@
 
 .section-dots div:nth-child(3) {
   background-color: var(--se-green);
+}
+.text-light-grey {
+  color: var(--se-light-grey);
+}
+
+.text-green {
+  color: var(--se-green);
+}
+.weight-400 {
+  font-weight: 400;
+}
+.weight-900 {
+  font-weight: 900;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.bg-light-grey {
+  background-color: var(--se-light-grey);
+}
+.bg-dark-grey {
+  background-color: var(--se-dark-grey);
 }

@@ -439,3 +439,45 @@ section:not(:first-of-type) {
 }
 
 /*Testimonials */
+#testimonials {
+  color: var(--se-white);
+}
+.testimonials-content {
+  background-color: var(--hero-grey);
+  font-weight: 400;
+  padding: 20px 20px 20px 64px;
+  border-radius: 20px;
+}
+.testimonials-content,
+.testimonials-content > img {
+  border-radius: 20px;
+}
+.testimonials-content,
+.profile {
+  display: flex;
+  gap: 40px;
+}
+.testimonials-content > img {
+  width: 400px;
+  height: 400px;
+}
+
+.profile {
+  gap: 20px;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+.profile > div > span {
+  font-weight: 900;
+}
+
+.profile > div > div {
+  font-size: 14px;
+}
+.quote-wrapper {
+  gap: 33px;
+}
