@@ -10,10 +10,6 @@
   --se-dark-grey: #232323;
 }
 
-html {
-  width: 100vw;
-  height: 100vh;
-}
 html,
 body {
   margin: 0;
@@ -574,4 +570,19 @@ input::placeholder {
 #partners img {
   width: 150px;
   object-fit: contain;
+}
+
+/* Newsletter */
+#newsletter input,
+#newsletter button {
+  padding: 8px 16px;
+  border: none;
+}
+
+#newsletter button {
+  font-family: 'Noto Sans Mono', sans-serif;
+}
+
+footer {
+  padding: 70px;
 }
