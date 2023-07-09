@@ -335,7 +335,7 @@
       </section>
       <section id="contact-us" class="bg-green flex flex-col">
         <div class="section-header">
-          <div class="section-title bg-dark-grey">
+          <div class="section-title bg-grey">
             <span class="section-marker">></span>
             <span class="section-description text-white">Contact us</span>
           </div>
@@ -345,10 +345,10 @@
             <div class="bg-grey"></div>
           </div>
         </div>
-        <div class="contact-info flex">
-          <div class="directions flex flex-col bg-dark-grey border-20">
+        <div class="contact-info flex justify-center gap-20">
+          <div class="directions flex flex-col gap-20 bg-grey br-20">
             <span class="text-light-grey">> Get directions</span>
-            <div class="map border-20">
+            <div class="map br-20">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3311.943109144391!2d35.505992000000006!3d33.891119!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f16e218dcdc01%3A0x161ad8bc1a3df237!2sSE%20Factory!5e0!3m2!1sen!2sus!4v1688909119579!5m2!1sen!2sus"
                 width="240"
@@ -359,41 +359,130 @@
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <div>
+            <div class="directions-info">
               <span class="text-white"> // SE Factory</span>
-              <p class="text-light-grey">
+              <p class="text-light-grey weight-400">
                 Beirut Digital District <br />
                 BDD 1243 <br />
                 1243 Basement (Floor -1)
               </p>
             </div>
           </div>
-          <div class="contact-form flex gap-20">
-            <div class="form-top flex flex-col">
-              <div class="flex flex-col">
-                <label for="">// First Name</label>
-                <input type="text" placeholder="First Name" />
-              </div>
-              <div class="flex flex-col">
-                <label for="">// Last Name</label>
-                <input type="text" placeholder="Last Name" />
-              </div>
+          <div class="contact-form bg-grey flex flex-col gap-20 br-20">
+            <div class="text-medium-grey flex flex-col gap-10">
+              <span>> Contact form</span
+              ><span class="info-web text-green">info@sefactory.io</span>
             </div>
 
-            <div class="form-bottom">
-              <div class="flex flex-col">
-                <label for="">// Email</label>
-                <input type="text" placeholder="Email" />
+            <div class="flex flex-col gap-20">
+              <div class="form-top flex gap-20">
+                <div class="flex flex-col gap-10">
+                  <label class="text-white" for="">// First Name</label>
+                  <input type="text" placeholder="First Name" />
+                </div>
+                <div class="flex flex-col gap-10">
+                  <label class="text-white" for="">// Last Name</label>
+                  <input type="text" placeholder="Last Name" />
+                </div>
               </div>
-              <div class="flex flex-col">
-                <label for="">// Password</label>
-                <input type="text" placeholder="Password" />
+
+              <div class="form-bottom flex gap-20">
+                <div class="flex flex-col gap-10">
+                  <label class="text-white" for="">// Email</label>
+                  <input type="text" placeholder="Email" />
+                </div>
+                <div class="flex flex-col gap-10">
+                  <label class="text-white" for="">// Phone Number</label>
+                  <input type="text" placeholder="Phone Number" />
+                </div>
+              </div>
+
+              <div class="radio-container flex flex-col gap-10">
+                <span class="text-white">// what can we help you with?</span>
+                <div class="radio-buttons flex justify-between">
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>FCS</label>
+                  </div>
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>FSW</label>
+                  </div>
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>FSD</label>
+                  </div>
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>UIX</label>
+                  </div>
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>Hire Talent</label>
+                  </div>
+                  <div class="flex text-white">
+                    <input type="radio" />
+                    <label>Other</label>
+                  </div>
+                </div>
+              </div>
+
+              <div class="text-area flex flex-col">
+                <span class="text-white">// inquiry</span>
+                <textarea placeholder="what can we help you with?"></textarea>
+              </div>
+              <div class="submit flex justify-end text-grey">
+                <button class="bg-green text-grey weight-800">SUBMIT</button>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section></section>
+      <section id="partners">
+        <div class="section-header">
+          <div class="section-title">
+            <span class="section-marker">></span>
+            <span class="section-description">Partners</span>
+          </div>
+          <div class="section-dots">
+            <div class="bg-dark-grey"></div>
+            <div class="bg-light-grey"></div>
+            <div class="bg-green"></div>
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="partners-top flex">
+            <img src="src/images/partners/fanar.png" alt="alfanar" />
+            <img src="src/images/partners/life.png" alt="life" />
+            <img src="src/images/partners/isdb.png" alt="Isdb" />
+            <img src="src/images/partners/spark.png" alt="spark" />
+            <img src="src/images/partners/jeel.png" alt="jeel" />
+            <img src="src/images/partners/netherlands.png" alt="netherlands" />
+          </div>
+          <div class="partners-botom flex">
+            <img src="src/images/partners/abdul.png" alt="abdul-aziz" />
+            <img src="src/images/partners/unicef.png" alt="unicef" />
+            <img src="src/images/partners/drosos.png" alt="drosos" />
+            <img src="src/images/partners/giz.png" alt="giz" />
+            <img
+              src="src/images/partners/german.png"
+              alt="german-cooperation"
+            />
+            <img
+              src="src/images/partners/michel-khalaf.png"
+              alt="michel khalaf"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex flex-col">
+          <div class="subscribe-text text-white">
+            Subscribe to our
+            <span class="text-green"></span>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
