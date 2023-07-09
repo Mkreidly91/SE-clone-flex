@@ -68,8 +68,8 @@
   gap: 10px;
 }
 .section-dots > * {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
 }
 
@@ -146,7 +146,7 @@
   background-color: var(--se-light-grey) !important;
 }
 .bg-medium-grey {
-  background-color: var(--se-medium-grey);
+  background-color: var(--se-medium-grey) !important;
 }
 .bg-dark-grey {
   background-color: var(--se-dark-grey) !important;
