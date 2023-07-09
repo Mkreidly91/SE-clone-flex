@@ -155,6 +155,7 @@ section:not(:first-of-type) {
 .section-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   align-self: stretch;
 }
 .section-title {
@@ -505,4 +506,20 @@ section:not(:first-of-type) {
   display: block;
   text-align: end;
   padding: 15px 20px;
+}
+
+/* Contact us */
+#contact-us .section-title {
+  height: fit-content;
+}
+#contact-us .section-marker {
+  padding: 10px 0px 10px 20px;
+}
+#contact-us .section-description {
+  padding: 10px 20px;
+}
+
+.directions {
+  gap: 20px;
+  padding: 30px 40px;
 }

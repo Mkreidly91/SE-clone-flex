@@ -46,6 +46,7 @@
   background-color: var(--se-green);
 } */
 
+/* text-color */
 .text-light-grey {
   color: var(--se-light-grey) !important;
 }
@@ -56,16 +57,26 @@
   color: var(--se-green) !important;
 }
 
+/* font */
 .weight-400 {
   font-weight: 400 !important;
+}
+.weight-700 {
+  font-weight: 700 !important;
 }
 .weight-900 {
   font-weight: 900 !important;
 }
 
+/* border */
 .round {
   border-radius: 50% !important;
 }
+.border-20 {
+  border-radius: 20px;
+}
+
+/* background-color */
 .bg-white {
   background-color: var(--se-white) !important;
 }
