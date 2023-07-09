@@ -586,6 +586,7 @@ input::placeholder {
 /* footer */
 footer {
   padding: 70px;
+  font-family: 'Noto Sans Mono', sans-serif;
 }
 
 footer a {
@@ -595,4 +596,13 @@ footer a {
 
 #se-footer {
   margin-bottom: 12px;
+}
+
+.footer-img {
+  width: 34px;
+  height: 34px;
+}
+
+#privacy {
+  padding-top: 70px;
 }

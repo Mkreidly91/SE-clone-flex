@@ -41,6 +41,7 @@
 .grow {
   flex-grow: 1;
 }
+
 .gap-9 {
   gap: 9px;
 }
@@ -116,6 +117,11 @@
 .font-14 {
   font-size: 14px !important;
 }
+
+.font-12 {
+  font-size: 12px !important;
+}
+
 .font-15 {
   font-size: 15px !important;
 }
@@ -123,6 +129,10 @@
 /* border */
 .round {
   border-radius: 50% !important;
+}
+
+.br-10 {
+  border-radius: 10px !important;
 }
 .br-20 {
   border-radius: 20px !important;
@@ -134,6 +144,9 @@
 }
 .bg-light-grey {
   background-color: var(--se-light-grey) !important;
+}
+.bg-medium-grey {
+  background-color: var(--se-medium-grey);
 }
 .bg-dark-grey {
   background-color: var(--se-dark-grey) !important;
