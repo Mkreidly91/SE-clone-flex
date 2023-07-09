@@ -425,3 +425,17 @@ section:not(:first-of-type) {
 .hire-bottom img {
   height: 40px;
 }
+
+#hire-talent .section-dots div:nth-child(1) {
+  background-color: var(--se-white);
+}
+
+#hire-talent .section-dots div:nth-child(2) {
+  background-color: var(--se-light-grey);
+}
+
+#hire-talent .section-dots div:nth-child(3) {
+  background-color: var(--se-green);
+}
+
+/*Testimonials */
