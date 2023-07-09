@@ -500,3 +500,9 @@ section:not(:first-of-type) {
   border-radius: 10px;
   font-size: 14px;
 }
+
+#faqs a {
+  display: block;
+  text-align: end;
+  padding: 15px 20px;
+}
