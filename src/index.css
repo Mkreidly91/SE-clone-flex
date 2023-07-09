@@ -481,3 +481,12 @@ section:not(:first-of-type) {
 .quote-wrapper {
   gap: 33px;
 }
+
+.carousel-indicators {
+  justify-content: center;
+  gap: 30px;
+}
+.carousel-indicators span {
+  width: 10px;
+  height: 10px;
+}
